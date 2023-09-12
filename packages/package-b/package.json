@@ -1,0 +1,14 @@
+{
+  "name": "@monorepo/package-b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@monorepo/package-a": "1.0.0",
+    "@monorepo/package-c": "1.0.0",
+    "vue": "2.7"
+  }
+}
